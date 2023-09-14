@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  gap: 1rem;
+}
+
+.episodes {
+  display: flex;
+  flex-direction: column;
+}
+
+.episode {
+  min-width: max-content;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 0;
+  background: #191414;
+  color: #fff;
+  cursor: pointer;
+}
+
+.episode:hover {
+  background: #1db954;
+}
